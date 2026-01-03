@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewBigini Ltd - Expert Cleaning Services</title>
+    <link href="public/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FF6B4A", // The vibrant orange from the screenshot
+              secondary: "#5BD95B", // The green accent color
+              "background-light": "#F9F6F0", // Off-white/cream background
+              "background-dark": "#111111", // Dark background
+              "surface-light": "#FFFFFF",
+              "surface-dark": "#1F1F1F",
+            },
+            fontFamily: {
+              display: ["Poppins", "sans-serif"],
+              body: ["Roboto", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "1rem",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 font-body transition-colors duration-300">
+
+<nav class="absolute top-0 w-full z-50 px-6 py-4 flex justify-between items-center max-w-7xl mx-auto left-0 right-0">
+    <div class="text-primary font-display font-bold text-2xl tracking-tighter">NewBigini</div>
+    <div class="hidden md:flex gap-8 text-white text-sm font-semibold tracking-wide">
+        <a class="hover:text-primary transition-colors" href="#">Home</a>
+        <a class="hover:text-primary transition-colors" href="#about">About</a>
+        <a class="hover:text-primary transition-colors" href="#services">Services</a>
+        <a class="hover:text-primary transition-colors" href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header class="relative bg-background-dark dark:bg-black pt-32 pb-16 px-6 md:px-12 lg:px-24">
+    <div class="max-w-7xl mx-auto">
+        <div class="mb-10 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-display font-extrabold text-primary mb-2">Spotless spaces</h1>
+            <p class="text-secondary text-lg md:text-xl font-bold uppercase tracking-wider">Expert cleaning for new builds</p>
+        </div>
+        <div class="relative w-full h-[300px] md:h-[500px] overflow-hidden rounded-sm mb-10 group">
+            <img alt="Pristine polished floor in a commercial building with construction tools in background" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqlBd8utN4tjHTgfhDmYynk0xYThUJbfxYwu-CoDM2mnaRwfEFCncQDx0ab4X24KRKfO3wCyApkGdTd0odus3WCQTOGQUf6k_zlDUkyvKUs83tBrjlC740aa2LYA5MgEMCe9UH8X1XTO4HkkBPEeu0gtPGNyCrtvGsrvHk8bl6JXOhT3_i33LPB4MC_zXxTyYyKbKBxIiOXa3kJKu_AzBtPxM2o9GSOOcr3N-UzUBNHK_r2zhCHQSWnxmz5hEa2zKizt5-mNfRaICY"/>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-60"></div>
+        </div>
+        <div class="flex justify-start">
+            <a href="#services" class="bg-primary hover:bg-orange-600 text-white font-bold py-3 px-8 text-sm uppercase tracking-widest transition-all duration-300 shadow-lg hover:shadow-orange-500/30">
+                View Services
+            </a>
+        </div>
+    </div>
+</header>
+
+<section id="about" class="bg-primary py-20 px-6 md:px-12 lg:px-24 text-white">
+    <div class="max-w-7xl mx-auto text-center mb-16">
+        <h2 class="text-secondary text-3xl md:text-4xl font-display font-bold mb-4">Expert cleaning solutions</h2>
+        <p class="text-white/90 font-medium text-lg mb-6">Tailored for developers and contractors</p>
+        <p class="max-w-4xl mx-auto text-sm md:text-base leading-relaxed text-white/80">
+            NewBigini Ltd specializes in post-building construction and sparkle cleaning services, dedicated to ensuring your properties shine. We understand that a pristine presentation is essential when handing over a completed project. Our comprehensive cleaning services include debris removal, dust extraction, and meticulous sparkle cleaning that guarantees every surface and fitting gleams. With professional equipment, trained staff, and eco-friendly products, we comply with health and safety protocols to enhance your project's quality and ensure client satisfaction.
+        </p>
+    </div>
+</section>
+
+<section id="services" class="bg-background-light dark:bg-background-dark py-20 px-6 md:px-12 lg:px-24">
+    <div class="max-w-7xl mx-auto">
+        <div class="mb-12">
+            <h4 class="text-primary text-xs font-bold uppercase tracking-widest mb-2">Expert Cleaning Solutions</h4>
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white">Transforming spaces to perfection</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-surface-light dark:bg-surface-dark shadow-sm hover:shadow-xl transition-shadow duration-300 group">
+                <div class="h-48 overflow-hidden">
+                    <img alt="Clean modern living room" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADo8ViNRM7cGi7mFwrmpberZAhUL8WK4c7v245qJgp81q5szhwWpKwOlwpszHHi3QMxWs6AQFpMwt92r0TSzB_o-ITli43qILdaX3HVmWVvxUwywGE3yhObwFRf8ALGatf0E0yE0Z_0vniLTaCbeWON4a2Rhlm2Si0Jy-BxtDR-OInY_ULf7rw9lEFETjrC8x1si2Y7yCfmWa8V0BPEjxPNI754ObaCSnY6BV0sky2erNqw79Arxw1d_DnxvTXnO2CybS71L9t39kr"/>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary transition-colors flex items-center">
+                        Post-build cleaning
+                        <span class="material-icons-outlined ml-2 text-sm">chevron_right</span>
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">Thorough cleaning for newly constructed properties.</p>
+                </div>
+            </div>
+            <div class="bg-surface-light dark:bg-surface-dark shadow-sm hover:shadow-xl transition-shadow duration-300 group">
+                <div class="h-48 overflow-hidden">
+                    <img alt="Sparkling clean kitchen counter" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-uJaVHKXZ1nvonqA-e92gUo1F17orGkv0FNg6f6pBCb-TnCxBN-dMqT0fDybHcjoX_397q40jAxJh1rr3pqDdhJ49IG4LXer3XkW6s7wGn-Y1iav09nEB3C2WNlr-GQC_QMftzkKk-lOMCQ1nfvcEw_4tSY-NRZvRv-ADc19zh6ktleJesChBMuIcd7ROmZmqL1SxfQawPjfE8rLvhU2OVKA1OldeKKy3L9oQkadTQz3g6oKgIm1a8FJXZETta7tTxUJUo3WVNebS"/>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary transition-colors flex items-center">
+                        Sparkle cleaning
+                        <span class="material-icons-outlined ml-2 text-sm">chevron_right</span>
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">Meticulous detailing for finishing touches.</p>
+                </div>
+            </div>
+            <div class="bg-surface-light dark:bg-surface-dark shadow-sm hover:shadow-xl transition-shadow duration-300 group">
+                <div class="h-48 overflow-hidden">
+                    <img alt="Construction tools on site" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD__6UEoZDLoE3JHkxN8BLQEK9_9NDlY9XrVgBHafQlck9b3wMKlY4zQlS8tfJFiBg-ApLuyUeT9pZhZ0dki1csdIrhBSvmx2NJAUBoxr36VrfmX-clR8w70ZJxj_u4TjtvdSItzsNAI8-zAaPuH2_1u3wOrJ1EXUZ3Lxq295Q9fHBCWQUPtnYrcImSKVqRy47LDfsqEV9vqPgkxIjbv_nHaGxluLZJjLi_u5Gb_V9gcqliIPBPMi7jPY6gJ0Qi49KFp_Tj5Au-UAXJ"/>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary transition-colors flex items-center">
+                        Construction site cleaning
+                        <span class="material-icons-outlined ml-2 text-sm">chevron_right</span>
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">Safety-focused cleaning tailored for construction environments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-white dark:bg-black py-20 px-6 md:px-12 lg:px-24 border-t border-gray-100 dark:border-gray-800" id="contact">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div>
+            <h4 class="text-primary text-xs font-bold uppercase tracking-widest mb-2">Get in touch</h4>
+            <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white mb-8">Let's discuss your cleaning needs</h2>
+            <form class="space-y-6">
+                <div>
+                    <label class="block text-sm font-bold text-gray-900 dark:text-gray-200 mb-1" for="name">Name <span class="text-primary">*</span></label>
+                    <input class="w-full border-gray-300 dark:border-gray-700 dark:bg-surface-dark dark:text-white focus:border-primary focus:ring-primary rounded-sm shadow-sm" id="name" name="name" placeholder="Jane Smith" type="text"/>
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-gray-900 dark:text-gray-200 mb-1" for="email">Email address <span class="text-primary">*</span></label>
+                    <input class="w-full border-gray-300 dark:border-gray-700 dark:bg-surface-dark dark:text-white focus:border-primary focus:ring-primary rounded-sm shadow-sm" id="email" name="email" placeholder="email@website.com" type="email"/>
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-gray-900 dark:text-gray-200 mb-1" for="phone">Phone number <span class="text-primary">*</span></label>
+                    <input class="w-full border-gray-300 dark:border-gray-700 dark:bg-surface-dark dark:text-white focus:border-primary focus:ring-primary rounded-sm shadow-sm" id="phone" name="phone" placeholder="555-555-5555" type="tel"/>
+                </div>
+                <div class="py-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-700 font-bold text-xs">NB</div>
+                        <div class="font-display font-bold text-green-700 text-lg">NewBigini Ltd <br/><span class="text-xs font-normal text-gray-500 dark:text-gray-400">Specialist Cleaning Service Company</span></div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <input class="mt-1 text-primary focus:ring-primary border-gray-300 rounded" id="consent" name="consent" type="checkbox"/>
+                    <label class="text-xs text-gray-600 dark:text-gray-400" for="consent">I allow this website to store my submission so they can respond to my inquiry. *</label>
+                </div>
+                <button class="w-full bg-primary hover:bg-orange-600 text-white font-bold py-3 px-8 text-sm uppercase tracking-widest transition-all shadow-md" type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+        <div class="bg-gray-100 dark:bg-surface-dark p-8 md:p-12 h-full flex flex-col justify-end">
+            <div class="mb-auto">
+                <div class="w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg mb-8 relative overflow-hidden flex items-center justify-center">
+                    <span class="text-gray-400 dark:text-gray-500 font-bold uppercase tracking-widest">Map View</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="font-bold text-lg mb-4 text-gray-900 dark:text-white">Get in touch</h3>
+                <div class="flex items-start gap-4 mb-6">
+                    <span class="material-icons-outlined text-gray-500 dark:text-gray-400 mt-1">location_on</span>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 underline decoration-gray-400">hampton Gardens<br/>peterborough, ENG pe7 8qy GB</p>
+                </div>
+                <h4 class="font-bold text-sm mb-2 text-gray-900 dark:text-white">Hours</h4>
+                <div class="grid grid-cols-2 gap-x-8 gap-y-1 text-sm text-gray-600 dark:text-gray-400">
+                    <div>Monday</div> <div class="text-right">9:00am - 6:00pm</div>
+                    <div>Tuesday</div> <div class="text-right">9:00am - 10:00pm</div>
+                    <div>Wednesday</div> <div class="text-right">9:00am - 6:00pm</div>
+                    <div>Thursday</div> <div class="text-right">9:00am - 6:00pm</div>
+                    <div>Friday</div> <div class="text-right">9:00am - 6:00pm</div>
+                    <div>Saturday</div> <div class="text-right">9:00am - 3:00pm</div>
+                    <div>Sunday</div> <div class="text-right">9:00am - 12:00pm</div>
+                </div>
+                <div class="mt-8 pt-8 border-t border-gray-300 dark:border-gray-600 flex flex-wrap gap-6 text-xs font-bold uppercase tracking-wider text-gray-800 dark:text-gray-200 items-center justify-between">
+                    <div class="flex gap-6">
+                        <a class="hover:text-primary transition-colors" href="#">Home</a>
+                        <a class="hover:text-primary transition-colors" href="#">About</a>
+                        <a class="hover:text-primary transition-colors" href="#">Services</a>
+                    </div>
+                    <button class="border border-black dark:border-white px-6 py-2 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors">
+                        Contact
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-black text-white py-12 px-6 md:px-12 lg:px-24 text-xs">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex gap-8">
+            <a class="hover:text-gray-400 transition-colors" href="#">Schedule Appointment</a>
+            <a class="hover:text-gray-400 transition-colors" href="#">Complete Intake</a>
+        </div>
+        <div class="text-gray-500">
+            Web design by <a class="text-white hover:underline font-bold" href="#">B12</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

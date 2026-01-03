@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "A Cleaning Service Enterprise that provides sparkling clean post tenancy service, deep cleaning and fumigation of buildings after constructions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omartinsville/NewBigini-Ltd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Omartinsville/NewBigini-Ltd/issues"
+  },
+  "homepage": "https://github.com/Omartinsville/NewBigini-Ltd#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
